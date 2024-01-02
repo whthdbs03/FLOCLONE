@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white"/>
+<!--    ㄴ 배경 하얗게 -->
+    <item>
+        <bitmap android:src="@drawable/ic_flo_logo" android:gravity="center"/>
+    </item>
+<!--    이미지 지정 후 가운데로 ㅇㅇ-->
+</layer-list>
