@@ -28,7 +28,7 @@ class AlbumRVAdapter(private val albumList: ArrayList<Album>): RecyclerView.Adap
         albumList.removeAt(position)
         notifyDataSetChanged()
     }
-    // d이것응ㄴ 소윤이 브랜치
+
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): AlbumRVAdapter.ViewHolder {
         //뷰홀더를 생성해줄때 호출되는 함수 1. 사용하고자하는 아이템뷰 객체 생성
         val binding: ItemAlbumBinding = ItemAlbumBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
